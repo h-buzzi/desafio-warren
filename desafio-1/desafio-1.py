@@ -29,8 +29,8 @@ print(allNumbers)       #Mostra na tela todos os números
 ############ Abaixo tem-se a outra versão do código, conforme explicado na README do GitHub.
 ############ Para rodar o código abaixo apenas remove o # do começo de cada linha, e mantenha a identação.
 ############ Se estiver usando a IDE Spyder, apenas selecione todas as linhas abaixo e pressione 'Ctrl+1'.
-############ Recomenda-se também que comente todo o bloco de código que está acima (ou seja, a outra versão)
-############ Para otimizar o tempo. Pode-se utilizar do mesmo comando "Ctrl+1' para comentar todo código acima
+############ Recomenda-se também que comente todo o bloco de código que está acima (ou seja, a outra versão) Para otimizar o tempo. 
+############ Pode-se utilizar do mesmo comando "Ctrl+1' para comentar todo código acima
 
 # limiar = 10**6      #Limite dos números ímpares que estão abaixo de 1 milhão, salvo como uma variável para facilmente testar com 1000 (10**3)
 # num = 11            #Número inteiro positivo inicial, que irá ser acrescentado para testar os números seguintes
