@@ -4,8 +4,9 @@ Created on Mon May  2 16:44:35 2022
 
 @author: henrique buzzi
 """
-##
+#### Entradas
 limiar = 10**6      #Limite dos números ímpares que estão abaixo de 1 milhão, salvo como uma variável para facilmente testar com 1000 (10**3)
+#### Processamento
 num = 11            #Número inteiro positivo inicial, que irá ser acrescentado para testar os números seguintes
 allNumbers = [];    #Pré-alocação do vetor dos números que satisfazem as condições
 
@@ -24,9 +25,6 @@ while (num < limiar-1):     #Enquanto o número estiver abaixo de 1 milhão -1 (
                     allNumbers.append(reversedNum)      #Adiciona também seu número reverso para otimização
 
 print(allNumbers)       #Mostra na tela todos os números
-
-
-
 
 ############ Abaixo tem-se a outra versão do código, conforme explicado na README do GitHub.
 ############ Para rodar o código abaixo apenas remove o # do começo de cada linha, e mantenha a identação.
